@@ -1,0 +1,12 @@
+.text-bold{
+    font-weight: bold;
+}
+div{
+    color: aqua;
+}
+.child{
+    color: azure;
+}
+a[href^="#blog"]{
+    color: blue;
+}
