@@ -1,0 +1,13 @@
+div{
+    width: 900px;
+    height: 900px;
+    padding-top: 20px;
+}
+.block{
+    background: url("tab-icon.ico") center no-repeat, linear-gradient(#ffff00, #0000ff);
+}
+.block2{
+    background-image: url("tab-icon.ico"), linear-gradient(#ffff00, #0000ff);
+    background-repeat: no-repeat;
+    background-position: center;
+}
