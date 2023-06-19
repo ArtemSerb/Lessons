@@ -1,0 +1,6 @@
+.text{
+    padding: 25px 25px 0 25px;
+    height: 100px;
+    max-width: 0.5vw;
+    overflow: scroll;
+}
