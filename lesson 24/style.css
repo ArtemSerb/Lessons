@@ -1,0 +1,11 @@
+div{
+    width: 300px;
+    height: 100px;
+    color: red;
+}
+.block{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    left: 50%;
+}
