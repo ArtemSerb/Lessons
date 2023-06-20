@@ -1,0 +1,11 @@
+@keyframes lowed{
+  0%{
+    color: red;
+  }
+  100%{
+    color: black;
+  }
+}
+.text{
+  animation: lowed 3s infinite alternate;
+}
