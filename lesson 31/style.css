@@ -1,0 +1,22 @@
+.title::before{
+  content: "";
+  display: inline-block;
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: left;
+  border-radius: 50%;
+}
+.title::after{
+  content: "";
+  display: inline-block;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  align-items: center;
+  justify-content: right;
+  border-radius: 50%;
+}
