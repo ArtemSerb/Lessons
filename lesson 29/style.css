@@ -1,0 +1,8 @@
+.parent{
+  display: grid;
+  grid-template-columns: 70px 70px minmax(100px, 200px) 70px 70px;
+  grid-template-rows: auto auto;
+}
+.child{
+  background-color: blueviolet;
+}
