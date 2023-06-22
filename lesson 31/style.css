@@ -1,7 +1,5 @@
-.title::before{
-  content: "";
-  display: inline-block;
-  background-color: blue;
+::after, ::after{
+   display: inline-block;
   width: 10px;
   height: 10px;
   position: absolute;
@@ -9,14 +7,12 @@
   justify-content: left;
   border-radius: 50%;
 }
+
+.title::before{
+  content: "";
+  background-color: blue;
+}
 .title::after{
   content: "";
-  display: inline-block;
   background-color: red;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  align-items: center;
-  justify-content: right;
-  border-radius: 50%;
 }
