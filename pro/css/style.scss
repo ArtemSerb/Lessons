@@ -1,0 +1,42 @@
+@import "reset";
+@import "blog";
+@import "home";
+@import "privacy";
+@import "vars";
+@import "sabl";
+
+
+
+
+.block{
+    position: sticky;
+    font-size: 20px;
+    
+}
+
+@media (max-width: $mobile){
+    .contact{
+        color: red;
+    }
+}
+.contact{
+    background: $blue-color;
+}
+
+.feedback{
+    ul{
+        padding-top: 30px;
+    }
+    .webp &{
+        background-color: aqua;
+    }
+    &__heading{
+        font-size: 32px;
+    }
+}
+.button{
+    @extend %defoult;
+}
+.slider{
+    @include pref;
+}
